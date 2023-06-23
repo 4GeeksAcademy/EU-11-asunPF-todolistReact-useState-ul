@@ -10,3 +10,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+
+    width: 800px;
+    height: 600px;
+    border: solid 2 px grey;
+    box-shadow: 2px 2px 50px 1px rgba(77, 77, 77, 0.2);
+    text-align: center;
+    padding: 20px;
+
+}
+
+ul li {
+    border: solid 2px grey;
+    
+    list-style: none;
+    padding: 20px;
+    text-align: start;
+}
+
+input {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.numberofTasks {
+    text-align: start;
+    padding-left: 40px;
+    color: lightcoral;
+}
+
+.trashIcon {
+    float: right;
+    padding-right: 15px;
+}
+
+.trashIcon:hover {
+    color: red;
+    transform: scale(1.2);
+    
+}
+
+.taskAdded {
+    border-top: none;
+}
